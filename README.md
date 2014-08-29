@@ -42,3 +42,23 @@ sql += 'WHERE column = value ';
 
 - A space is needed on each line (beginning or end)
 - A bunch more typing for each line
+
+## Concatenated array
+
+```javascript
+var sql = [
+  'SELECT *',
+  'FROM table',
+  'WHERE column = value'
+];
+```
+
+### Pros
+
+- Nice to read
+- Will grow
+- No leading/trailing space needed
+
+### Cons
+
+- sql.join(' ') is needed when used
