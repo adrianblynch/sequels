@@ -2,7 +2,9 @@
 
 ## Single line
 
-  var sql = 'SELECT * FROM table WHERE column = value';
+```javascript
+var sql = 'SELECT * FROM table WHERE column = value';
+```
 
 ### Pros
 
@@ -15,16 +17,20 @@
 
 ## Multi line concatenated statements
 
-  var sql = 'SELECT * ';
-  sql += 'FROM table ';
-  sql += 'WHERE column = value ';
+```javascript
+var sql = 'SELECT * ';
+sql += 'FROM table ';
+sql += 'WHERE column = value ';
+```
   
 Or if you'd like things to line up:
   
-  var sql = '' ;
-  sql  = 'SELECT *' ;
-  sql += 'FROM table ';
-  sql += 'WHERE column = value ';
+```javascript
+var sql = '' ;
+sql  = 'SELECT *' ;
+sql += 'FROM table ';
+sql += 'WHERE column = value ';
+```
 
 ### Pros
 
