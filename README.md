@@ -43,7 +43,7 @@ sql += 'WHERE column = value ';
 - A space is needed on each line (beginning or end)
 - A bunch more typing for each line
 
-## Concatenated array
+## Concatenated array items
 
 ```javascript
 var sql = [
