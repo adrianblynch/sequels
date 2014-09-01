@@ -1,5 +1,11 @@
 # Sequels
 
+An SQL string can be built in many ways in JavaScript and other languages. Below are the variations I've seen and have used.
+
+My personal favourite at the moment is the _Concatenated array items_.
+
+Have your own way? Add it below.
+
 ## Single line
 
 ```javascript
