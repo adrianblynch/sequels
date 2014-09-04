@@ -111,3 +111,24 @@ WHERE column = value
 - Extra package dependency
 - Micro performance hit
 - JavaScript only (AFAIK)
+
+## Template strings
+
+ES6 natively supports multiline strings.
+
+```javascript
+var sql = `
+  SELECT *
+  FROM table
+  WHERE column = value`;
+```
+
+### Pros
+
+- Write everything as is
+- No newline escape
+- Will grow
+
+### Cons
+
+- Requires using [es6-templates](https://github.com/esnext/es6-templates) to compile JavaScript written using template strings to use ES5-compatible syntax
