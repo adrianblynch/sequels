@@ -110,3 +110,4 @@ WHERE column = value
 
 - Extra package dependency
 - Micro performance hit
+- JavaScript only (AFAIK)
