@@ -68,3 +68,45 @@ var sql = [
 ### Cons
 
 - sql.join(' ') is needed when used
+
+
+## Escape Newline
+
+```javascript
+var sql = "SELECT * \
+FROM table \
+WHERE column = value";
+```
+
+### Pros
+
+- No extra whitespace required
+- No need for closing/opening quotes repeatedly
+- Will grow
+
+### Cons
+
+- Having to escape newline looks ugly
+
+
+## Multiline NPM Module
+
+```javascript
+var sql = multiline(function(){/*
+SELECT *
+FROM table
+WHERE column = value
+*/});
+```
+
+### Pros
+
+- Write everything as is
+- No newline escape
+- Will grow
+- No extra whitespace
+
+### Cons
+
+- Extra package dependency
+- Micro performance hit
