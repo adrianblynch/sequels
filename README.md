@@ -87,3 +87,26 @@ WHERE column = value";
 ### Cons
 
 - Having to escape newline looks ugly
+
+
+## Multiline NPM Module
+
+```javascript
+var sql = multiline(function(){/*
+SELECT *
+FROM table
+WHERE column = value
+*/});
+```
+
+### Pros
+
+- Write everything as is
+- No newline escape
+- Will grow
+- No extra whitespace
+
+### Cons
+
+- Extra package dependency
+- Micro performance hit
