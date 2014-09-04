@@ -70,7 +70,7 @@ var sql = [
 - sql.join(' ') is needed when used
 
 
-## Escape Newline
+## Escape newline
 
 ```javascript
 var sql = "SELECT * \
@@ -89,7 +89,7 @@ WHERE column = value";
 - Having to escape newline looks ugly
 
 
-## Multiline NPM Module
+## Multiline npm module
 
 ```javascript
 var sql = multiline(function(){/*
