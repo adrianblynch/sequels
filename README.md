@@ -68,3 +68,22 @@ var sql = [
 ### Cons
 
 - sql.join(' ') is needed when used
+
+
+## Escape Newline
+
+```javascript
+var sql = "SELECT * \
+FROM table \
+WHERE column = value";
+```
+
+### Pros
+
+- No extra whitespace required
+- No need for closing/opening quotes repeatedly
+- Will grow
+
+### Cons
+
+- Having to escape newline looks ugly
