@@ -132,3 +132,21 @@ var sql = `
 ### Cons
 
 - Requires using [es6-templates](https://github.com/esnext/es6-templates) to compile JavaScript written using template strings to use ES5-compatible syntax
+
+
+## Knex
+
+```javascript
+knex('table').where({column: value})
+```
+
+### Pros
+
+- Easy to multiline
+- Easy to compose
+- Limits SQL injection
+
+### Cons
+
+- Extra package dependency
+- New syntax to learn
