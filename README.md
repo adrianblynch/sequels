@@ -87,6 +87,7 @@ WHERE column = value";
 ### Cons
 
 - Having to escape newline looks ugly
+- Whitespace after ecaped newline errors are invislbe errors (e.g. "FROM•table•\•" is an error)
 
 
 ## Multiline npm module
