@@ -151,3 +151,24 @@ knex('table').where({column: value})
 
 - Extra package dependency
 - New syntax to learn
+
+
+## querybox
+
+```javascript
+box.run('get-user', [userId], function(err, rows) {
+  console.log(rows[0].name) //brian
+})
+```
+
+### Pros
+
+- SQL in completely separate files
+- Easy to multiline
+- Easy to compose
+- Limits SQL injection
+- Easy copy and paste from SQL IDE
+
+### Cons
+
+- Extra package dependency
