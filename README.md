@@ -154,6 +154,7 @@ knex('table').where({column: value})
 
 
 ## querybox
+https://www.npmjs.org/package/querybox
 
 ```javascript
 box.run('query-table', [rowId], function(err, rows) {
