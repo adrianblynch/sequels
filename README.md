@@ -156,8 +156,8 @@ knex('table').where({column: value})
 ## querybox
 
 ```javascript
-box.run('get-user', [userId], function(err, rows) {
-  console.log(rows[0].name) //brian
+box.run('query-table', [rowId], function(err, rows) {
+  console.log(rows[0].name)
 })
 ```
 
