@@ -132,7 +132,7 @@ var sql = `
 
 ### Cons
 
-- Requires using [es6-templates](https://github.com/esnext/es6-templates) to compile JavaScript written using template strings to use ES5-compatible syntax
+- Requires using [es6-templates](https://github.com/esnext/es6-templates) to compile JavaScript written using template strings to use ES5-compatible syntax OR you can use [io.js](https://iojs.org/es6.html) instead of NodeJS as it ships with template string support.
 
 
 ## Knex
